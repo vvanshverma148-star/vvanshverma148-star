@@ -328,8 +328,19 @@
         Languages and Development Tools
       </div>
       
-      <div style={{ display:'flex', zIndex: 10 }}>
-        <img src="https://skillicons.dev/icons?i=cpp,python,c,java,mysql,vscode,github,render,vercel,aiven" height="48" style={{ height: 48 }} />
+      <div style={{ display:'flex', zIndex: 10, gap: 4 }}>
+        <img src="https://skillicons.dev/icons?i=cpp,python,c,java,mysql,vscode,github" height="48" style={{ height: 48 }} />
+        <div style={{ display: 'flex', width: 48, height: 48, background: '#242938', borderRadius: 12, alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
+            <path d="M22.973 17.652c-.672-4.004-4.839-4.81-8.544-4.698V8.672c1.785-.112 3.518.335 4.39.782l1.64-3.167c-1.399-.783-3.69-1.455-6.03-1.455v-.002c-4.256 0-7.391 1.636-7.391 5.937 0 5.485 5.597 5.706 8.528 5.706v4.619c-2.35 0-4.642-.746-6.19-1.867l-2.015 2.946c1.903 1.528 4.773 2.508 8.204 2.508v.002c6.264 0 8.04-3.353 7.408-7.03z"/>
+          </svg>
+        </div>
+        <img src="https://skillicons.dev/icons?i=vercel" height="48" style={{ height: 48 }} />
+        <div style={{ display: 'flex', width: 48, height: 48, background: '#242938', borderRadius: 12, alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
+            <path d="M2.551 0a2.552 2.552 0 0 0-2.55 2.551v3.298C0 14.394 6.902 21.321 15.429 21.444v2.551h8.571v-8.571h-2.551c-.123-8.527-7.05-15.429-15.595-15.424zM8.367 7.02c1.722 0 3.118 1.401 3.118 3.123 0 1.722-1.396 3.118-3.118 3.118a3.12 3.12 0 0 1-3.119-3.118c0-1.722 1.397-3.123 3.119-3.123z"/>
+          </svg>
+        </div>
       </div>
     </div>
   );
@@ -337,47 +348,50 @@
 ```
 
 ```aura width=130 height=44 link="https://www.linkedin.com/in/vvanshverma" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/linkedin/0077b5"
-  text="Linkedin"
-  backgroundColor="#08080c"
-  width={130}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#0077b5' },
-    { offset: '20%', color: '#333333' },
-    { offset: '80%', color: '#333333' },
-    { offset: '100%', color: '#0077b5' },
-  ]}
-/>
+(function() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+      background: '#08080c', width: '100%', height: '100%', borderRadius: 22,
+      border: '1px solid #222222'
+    }}>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#0077b5">
+        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+      </svg>
+      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>LinkedIn</span>
+    </div>
+  );
+})()
 ```
 ```aura width=120 height=44 link="mailto:hello@vvanshverma148.com" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/EA4335"
-  text="Email"
-  backgroundColor="#08080c"
-  width={120}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#EA4335' },
-    { offset: '20%', color: '#333333' },
-    { offset: '80%', color: '#333333' },
-    { offset: '100%', color: '#EA4335' },
-  ]}
-/>
+(function() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+      background: '#08080c', width: '100%', height: '100%', borderRadius: 22,
+      border: '1px solid #222222'
+    }}>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#EA4335">
+        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+      </svg>
+      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>Email</span>
+    </div>
+  );
+})()
 ```
 ```aura width=140 height=44 link="https://instagram.com/vvanshverma" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/instagram/E4405F"
-  text="Instagram"
-  backgroundColor="#08080c"
-  width={140}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#E4405F' },
-    { offset: '20%', color: '#333333' },
-    { offset: '80%', color: '#333333' },
-    { offset: '100%', color: '#E4405F' },
-  ]}
-/>
+(function() {
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+      background: '#08080c', width: '100%', height: '100%', borderRadius: 22,
+      border: '1px solid #222222'
+    }}>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="#E4405F">
+        <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.863.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.757 6.162 6.162 6.162 3.405 0 6.162-2.757 6.162-6.162 0-3.402-2.757-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+      </svg>
+      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>Instagram</span>
+    </div>
+  );
+})()
 ```
