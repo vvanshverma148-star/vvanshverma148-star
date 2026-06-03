@@ -421,7 +421,7 @@
       border: '1px solid #222222', fontFamily: 'Inter'
     }}>
       <div style={{ color: '#ffffff', fontSize: 18, fontWeight: 700, marginBottom: 16, letterSpacing: '0.5px' }}>
-        📬 Contact Me
+        Contact Me
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
