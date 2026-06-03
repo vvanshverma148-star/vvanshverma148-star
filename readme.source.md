@@ -234,14 +234,14 @@
 })()
 ```
 
-```aura width=860 height=180
+```aura width=860 height=140
  (function() {
   return (
     <div style={{
       width: '100%', height: '100%',
       background: '#08080c',
       display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-      fontFamily: 'Inter', padding: '18px 32px', gap: 12,
+      fontFamily: 'Inter', padding: '18px 32px',
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
       position: 'relative', overflow: 'hidden',
     }}>
@@ -282,7 +282,7 @@
         `}
       </style>
 
-      <svg width="860" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
+      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
         <defs>
           <radialGradient id="g1" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="rgba(15,82,186,0.68)" />
@@ -312,23 +312,24 @@
             <stop offset="70%" stopColor="rgba(30,144,255,0)" />
           </radialGradient>
         </defs>
-        <ellipse id="glow-1" cx="170" cy="180" rx="260" ry="170" fill="url(#g1)" />
-        <ellipse id="glow-2" cx="320" cy="190" rx="220" ry="140" fill="url(#g2)" />
-        <ellipse id="glow-3" cx="460" cy="190" rx="190" ry="130" fill="url(#g3)" />
-        <ellipse id="glow-4" cx="590" cy="200" rx="160" ry="110" fill="url(#g4)" />
-        <ellipse id="glow-5" cx="750" cy="200" rx="140" ry="100" fill="url(#g5)" />
-        <ellipse id="glow-6" cx="420" cy="140" rx="100" ry="80" fill="url(#g6)" />
+        <ellipse id="glow-1" cx="170" cy="140" rx="260" ry="170" fill="url(#g1)" />
+        <ellipse id="glow-2" cx="320" cy="150" rx="220" ry="140" fill="url(#g2)" />
+        <ellipse id="glow-3" cx="460" cy="150" rx="190" ry="130" fill="url(#g3)" />
+        <ellipse id="glow-4" cx="590" cy="160" rx="160" ry="110" fill="url(#g4)" />
+        <ellipse id="glow-5" cx="750" cy="160" rx="140" ry="100" fill="url(#g5)" />
+        <ellipse id="glow-6" cx="420" cy="100" rx="100" ry="80" fill="url(#g6)" />
       </svg>
 
-      <div style={{ display:'flex', fontSize:14, fontWeight:700, color:'rgba(200,230,255,0.6)', letterSpacing:'3px', zIndex: 10, marginBottom: 8 }}>
-        [ TECH STACK ]
+      <div style={{ display:'flex', fontSize:32, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1, zIndex: 10, marginBottom: 8 }}>
+        TECH STACK
       </div>
       
-      <div style={{ display:'flex', fontSize:12, fontWeight:700, color:'#ffffff', letterSpacing:'1px', zIndex: 10 }}>
-        Languages & Dev Tools
+      <div style={{ display:'flex', fontSize:15, color:'rgba(200,230,255,0.8)', fontWeight:400, letterSpacing:'0.3px', zIndex: 10, marginBottom: 12 }}>
+        Languages and Development Tools
       </div>
-      <div style={{ display:'flex', zIndex: 10, marginTop: 4 }}>
-        <img src="https://skillicons.dev/icons?i=cpp,python,c,java,mysql,vscode,github,render,vercel" height="48" style={{ height: 48 }} />
+      
+      <div style={{ display:'flex', zIndex: 10 }}>
+        <img src="https://skillicons.dev/icons?i=cpp,python,c,java,mysql,vscode,github,render,vercel,aiven" height="48" style={{ height: 48 }} />
       </div>
     </div>
   );
