@@ -356,54 +356,46 @@
 
 ```aura width=130 height=44 link="https://www.linkedin.com/in/vvanshverma" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/linkedin/ffffff"
-  text="LinkedIn"
-  backgroundColor="#001829"
+  icon="https://cdn.simpleicons.org/linkedin/0077b5"
+  text="Linkedin"
+  backgroundColor="#08080c"
   width={130}
   height={44}
   gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#0077b5' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
+    { offset: '0%', color: '#0077b5' },
+    { offset: '20%', color: '#333333' },
+    { offset: '80%', color: '#333333' },
+    { offset: '100%', color: '#0077b5' },
   ]}
 />
 ```
-
 ```aura width=120 height=44 link="mailto:hello@vvanshverma148.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/ffffff"
-  text="Gmail"
-  backgroundColor="#2b0a0a"
+  icon="https://cdn.simpleicons.org/gmail/EA4335"
+  text="Email"
+  backgroundColor="#08080c"
   width={120}
   height={44}
   gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#EA4335' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
+    { offset: '0%', color: '#EA4335' },
+    { offset: '20%', color: '#333333' },
+    { offset: '80%', color: '#333333' },
+    { offset: '100%', color: '#EA4335' },
   ]}
 />
 ```
-
 ```aura width=140 height=44 link="https://instagram.com/vvanshverma" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/instagram/ffffff"
+  icon="https://cdn.simpleicons.org/instagram/E4405F"
   text="Instagram"
-  backgroundColor="#2a0a1a"
+  backgroundColor="#08080c"
   width={140}
   height={44}
   gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#E4405F' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
+    { offset: '0%', color: '#E4405F' },
+    { offset: '20%', color: '#333333' },
+    { offset: '80%', color: '#333333' },
+    { offset: '100%', color: '#E4405F' },
   ]}
 />
 ```
