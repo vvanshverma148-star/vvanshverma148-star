@@ -47,42 +47,42 @@
  <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
    <defs>
      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(110,20,210,0.72)" />
-       <stop offset="40%" stopColor="rgba(90,15,180,0.35)" />
-       <stop offset="70%" stopColor="rgba(90,15,180,0)" />
+       <stop offset="0%" stopColor="rgba(15,82,186,0.72)" />
+       <stop offset="40%" stopColor="rgba(30,144,255,0.35)" />
+       <stop offset="70%" stopColor="rgba(30,144,255,0)" />
      </radialGradient>
      <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(40,60,255,0.6)" />
-       <stop offset="45%" stopColor="rgba(30,50,200,0.25)" />
-       <stop offset="70%" stopColor="rgba(30,50,200,0)" />
+       <stop offset="0%" stopColor="rgba(0,191,255,0.6)" />
+       <stop offset="45%" stopColor="rgba(135,206,235,0.25)" />
+       <stop offset="70%" stopColor="rgba(135,206,235,0)" />
      </radialGradient>
      <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(0,130,255,0.45)" />
-       <stop offset="50%" stopColor="rgba(0,100,220,0.18)" />
-       <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+       <stop offset="0%" stopColor="rgba(70,130,180,0.45)" />
+       <stop offset="50%" stopColor="rgba(100,149,237,0.18)" />
+       <stop offset="70%" stopColor="rgba(100,149,237,0)" />
      </radialGradient>
      <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(0,190,230,0.32)" />
-       <stop offset="70%" stopColor="rgba(0,190,230,0)" />
+       <stop offset="0%" stopColor="rgba(0,255,255,0.32)" />
+       <stop offset="70%" stopColor="rgba(0,255,255,0)" />
      </radialGradient>
      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(90,30,200,0.38)" />
-       <stop offset="70%" stopColor="rgba(90,30,200,0)" />
+       <stop offset="0%" stopColor="rgba(15,82,186,0.38)" />
+       <stop offset="70%" stopColor="rgba(15,82,186,0)" />
      </radialGradient>
      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(160,30,255,0.55)" />
-       <stop offset="45%" stopColor="rgba(130,20,220,0.22)" />
-       <stop offset="70%" stopColor="rgba(130,20,220,0)" />
+       <stop offset="0%" stopColor="rgba(30,144,255,0.55)" />
+       <stop offset="45%" stopColor="rgba(0,191,255,0.22)" />
+       <stop offset="70%" stopColor="rgba(0,191,255,0)" />
      </radialGradient>
      <radialGradient id="g7" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(20,60,255,0.42)" />
-       <stop offset="50%" stopColor="rgba(10,40,200,0.16)" />
-       <stop offset="70%" stopColor="rgba(10,40,200,0)" />
+       <stop offset="0%" stopColor="rgba(70,130,180,0.42)" />
+       <stop offset="50%" stopColor="rgba(100,149,237,0.16)" />
+       <stop offset="70%" stopColor="rgba(100,149,237,0)" />
      </radialGradient>
      <radialGradient id="g8" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(0,170,255,0.40)" />
-       <stop offset="50%" stopColor="rgba(0,130,220,0.15)" />
-       <stop offset="70%" stopColor="rgba(0,130,220,0)" />
+       <stop offset="0%" stopColor="rgba(0,191,255,0.40)" />
+       <stop offset="50%" stopColor="rgba(135,206,235,0.15)" />
+       <stop offset="70%" stopColor="rgba(135,206,235,0)" />
      </radialGradient>
    </defs>
 
@@ -108,16 +108,16 @@
    <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
      Vansh Verma
    </div>
-   <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-     {(github && github.user && github.user.bio) || 'Full-Stack Engineer · Competitive Programmer · Open Source'}
+   <div style={{ display:'flex', fontSize:15, color:'rgba(200,230,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
+     CSE Student · C++ & Python Programmer · Data Analytics · Creative Technologist
    </div>
-   <div style={{ display:'flex', gap:8, marginTop:6 }}>
-     {['React', 'TypeScript', 'Next.js', 'C++'].map(function(tag) {
+   <div style={{ display:'flex', gap:8, marginTop:6, flexWrap:'wrap', width: 620 }}>
+     {['C++', 'Python', 'Data Analytics', 'MySQL', 'SWE Concepts', 'Graphic Designing', 'C', 'Java', 'Music'].map(function(tag) {
        return (
          <div key={tag} style={{
            display:'flex', padding:'4px 12px', borderRadius:20,
-           background:'rgba(80,40,220,0.18)', border:'1px solid rgba(100,70,240,0.32)',
-           color:'rgba(205,195,255,0.85)', fontSize:12, fontWeight:600,
+           background:'rgba(30,144,255,0.18)', border:'1px solid rgba(100,149,237,0.32)',
+           color:'rgba(215,235,255,0.85)', fontSize:12, fontWeight:600,
          }}>{tag}</div>
        );
      })}
@@ -182,26 +182,26 @@
      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
-           <stop offset="45%" stopColor="rgba(80,15,170,0.28)" />
-           <stop offset="70%" stopColor="rgba(80,15,170,0)" />
+           <stop offset="0%" stopColor="rgba(15,82,186,0.65)" />
+           <stop offset="45%" stopColor="rgba(30,144,255,0.28)" />
+           <stop offset="70%" stopColor="rgba(30,144,255,0)" />
          </radialGradient>
          <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(40,70,255,0.55)" />
-           <stop offset="45%" stopColor="rgba(20,50,200,0.22)" />
-           <stop offset="70%" stopColor="rgba(20,50,200,0)" />
+           <stop offset="0%" stopColor="rgba(0,191,255,0.55)" />
+           <stop offset="45%" stopColor="rgba(135,206,235,0.22)" />
+           <stop offset="70%" stopColor="rgba(135,206,235,0)" />
          </radialGradient>
          <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(0,140,255,0.42)" />
-           <stop offset="70%" stopColor="rgba(0,140,255,0)" />
+           <stop offset="0%" stopColor="rgba(70,130,180,0.42)" />
+           <stop offset="70%" stopColor="rgba(70,130,180,0)" />
          </radialGradient>
          <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(0,195,235,0.30)" />
-           <stop offset="70%" stopColor="rgba(0,195,235,0)" />
+           <stop offset="0%" stopColor="rgba(0,255,255,0.30)" />
+           <stop offset="70%" stopColor="rgba(0,255,255,0)" />
          </radialGradient>
          <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(100,30,210,0.40)" />
-           <stop offset="70%" stopColor="rgba(100,30,210,0)" />
+           <stop offset="0%" stopColor="rgba(15,82,186,0.40)" />
+           <stop offset="70%" stopColor="rgba(15,82,186,0)" />
          </radialGradient>
        </defs>
        <ellipse id="glow-1" cx="710" cy="150" rx="210" ry="150" fill="url(#g1)" />
@@ -235,12 +235,10 @@
 ```
 
 ```aura width=860 height=168
-(function() {
- var topLangs = (github && github.languages && github.languages.length > 0 ? github.languages.slice(0, 6).map(function(l) { return l.name; }) : ['TypeScript', 'React', 'Next.js', 'C++', 'Go', 'Rust']);
- var categories = [
-   { title: 'Languages', color: '#a78bfa', items: topLangs },
-   { title: 'Frameworks', color: '#60a5fa', items: ['React Native', 'React', 'Next.js'] },
- ];
+ (function() {
+  var categories = [
+    { title: 'Languages', color: '#60a5fa', items: ['⚙️ C++', '🐍 Python', '©️ C', '☕ Java', '🗄️ SQL'] }
+  ];
 
  return (
    <div style={{
@@ -291,31 +289,31 @@
      <svg width="860" height="168" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(115,20,215,0.68)" />
-           <stop offset="42%" stopColor="rgba(85,15,175,0.30)" />
-           <stop offset="70%" stopColor="rgba(85,15,175,0)" />
+           <stop offset="0%" stopColor="rgba(15,82,186,0.68)" />
+           <stop offset="42%" stopColor="rgba(30,144,255,0.30)" />
+           <stop offset="70%" stopColor="rgba(30,144,255,0)" />
          </radialGradient>
          <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(55,55,255,0.55)" />
-           <stop offset="45%" stopColor="rgba(35,45,210,0.22)" />
-           <stop offset="70%" stopColor="rgba(35,45,210,0)" />
+           <stop offset="0%" stopColor="rgba(0,191,255,0.55)" />
+           <stop offset="45%" stopColor="rgba(135,206,235,0.22)" />
+           <stop offset="70%" stopColor="rgba(135,206,235,0)" />
          </radialGradient>
          <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(0,130,255,0.42)" />
-           <stop offset="50%" stopColor="rgba(0,100,220,0.16)" />
-           <stop offset="70%" stopColor="rgba(0,100,220,0)" />
+           <stop offset="0%" stopColor="rgba(70,130,180,0.42)" />
+           <stop offset="50%" stopColor="rgba(100,149,237,0.16)" />
+           <stop offset="70%" stopColor="rgba(100,149,237,0)" />
          </radialGradient>
          <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(0,185,240,0.32)" />
-           <stop offset="70%" stopColor="rgba(0,185,240,0)" />
+           <stop offset="0%" stopColor="rgba(0,255,255,0.32)" />
+           <stop offset="70%" stopColor="rgba(0,255,255,0)" />
          </radialGradient>
          <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(100,25,205,0.42)" />
-           <stop offset="70%" stopColor="rgba(100,25,205,0)" />
+           <stop offset="0%" stopColor="rgba(15,82,186,0.42)" />
+           <stop offset="70%" stopColor="rgba(15,82,186,0)" />
          </radialGradient>
          <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(60,80,255,0.35)" />
-           <stop offset="70%" stopColor="rgba(60,80,255,0)" />
+           <stop offset="0%" stopColor="rgba(30,144,255,0.35)" />
+           <stop offset="70%" stopColor="rgba(30,144,255,0)" />
          </radialGradient>
        </defs>
        <ellipse id="glow-1" cx="170" cy="168" rx="260" ry="170" fill="url(#g1)" />
@@ -356,66 +354,30 @@
 })()
 ```
 
-```aura width=120 height=44 link="https://github.com/vvanshverma148-star" inline align=center
+```aura width=130 height=44 link="https://www.linkedin.com/in/vvanshverma" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/github/ffffff"
-  text="GitHub"
-  backgroundColor="#141414"
-  width={120}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#ffffff' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-```aura width=138 height=44 link="https://x.com/vvanshverma148-star" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/x/ffffff"
-  text="X.com"
-  backgroundColor="#141414"
-  width={138}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#ffffff' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-```aura width=130 height=44 link="https://t.me/vvanshverma148-star" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/telegram/26A5E4"
-  text="Telegram"
-  backgroundColor="#0a2939"
+  icon="https://cdn.simpleicons.org/linkedin/ffffff"
+  text="LinkedIn"
+  backgroundColor="#001829"
   width={130}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
     { offset: '10%', color: '#111111' },
     { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#26A5E4' },
+    { offset: '60%', color: '#0077b5' },
     { offset: '80%', color: '#111111' },
     { offset: '100%', color: '#555555' },
   ]}
 />
 ```
 
-```aura width=110 height=44 link="mailto:hello@vvanshverma148.com" inline align=center
+```aura width=120 height=44 link="mailto:hello@vvanshverma148.com" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/EA4335"
-  text="Email"
+  icon="https://cdn.simpleicons.org/gmail/ffffff"
+  text="Gmail"
   backgroundColor="#2b0a0a"
-  width={110}
+  width={120}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
@@ -428,5 +390,20 @@
 />
 ```
 
-<br>
-<p align="center"><sub>𝗉𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href="https://github.com/collectioneur/readme-aura">𝗋𝖾𝖺𝖽𝗆𝖾-𝖺𝗎𝗋𝖺</a></sub></p>
+```aura width=140 height=44 link="https://instagram.com/vvanshverma" inline align=center
+<SocialMediaButton
+  icon="https://cdn.simpleicons.org/instagram/ffffff"
+  text="Instagram"
+  backgroundColor="#2a0a1a"
+  width={140}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#eeeeee' },
+    { offset: '60%', color: '#E4405F' },
+    { offset: '80%', color: '#111111' },
+    { offset: '100%', color: '#555555' },
+  ]}
+/>
+```
