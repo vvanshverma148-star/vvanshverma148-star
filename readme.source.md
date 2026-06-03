@@ -413,6 +413,14 @@
 })()
 ```
 
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vvanshverma148-star&bg_color=08080c&color=ffffff&line=3090ff&point=ffffff&area=true&hide_border=false&border_color=222222&title_color=ffffff&radius=16" width="860" />
+  <br/><br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vvanshverma148-star&theme=dark" width="860" />
+</div>
+<br/>
+
+
 ```aura width=130 height=44 link="https://www.linkedin.com/in/vvanshverma" inline align=center
 (function() {
   return (
