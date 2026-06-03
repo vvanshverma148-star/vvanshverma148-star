@@ -234,14 +234,14 @@
 })()
 ```
 
-```aura width=860 height=140
+```aura width=860 height=340
  (function() {
   return (
     <div style={{
       width: '100%', height: '100%',
       background: '#08080c',
-      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-      fontFamily: 'Inter', padding: '18px 32px',
+      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+      fontFamily: 'Inter', padding: '32px 40px',
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
       position: 'relative', overflow: 'hidden',
     }}>
@@ -282,7 +282,7 @@
         `}
       </style>
 
-      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
+      <svg width="860" height="340" style={{ position: 'absolute', top: 0, left: 0 }}>
         <defs>
           <radialGradient id="g1" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="rgba(15,82,186,0.68)" />
@@ -312,34 +312,93 @@
             <stop offset="70%" stopColor="rgba(30,144,255,0)" />
           </radialGradient>
         </defs>
-        <ellipse id="glow-1" cx="170" cy="140" rx="260" ry="170" fill="url(#g1)" />
-        <ellipse id="glow-2" cx="320" cy="150" rx="220" ry="140" fill="url(#g2)" />
-        <ellipse id="glow-3" cx="460" cy="150" rx="190" ry="130" fill="url(#g3)" />
-        <ellipse id="glow-4" cx="590" cy="160" rx="160" ry="110" fill="url(#g4)" />
-        <ellipse id="glow-5" cx="750" cy="160" rx="140" ry="100" fill="url(#g5)" />
-        <ellipse id="glow-6" cx="420" cy="100" rx="100" ry="80" fill="url(#g6)" />
+        <ellipse id="glow-1" cx="170" cy="240" rx="260" ry="200" fill="url(#g1)" />
+        <ellipse id="glow-2" cx="320" cy="250" rx="220" ry="170" fill="url(#g2)" />
+        <ellipse id="glow-3" cx="460" cy="250" rx="190" ry="160" fill="url(#g3)" />
+        <ellipse id="glow-4" cx="590" cy="260" rx="160" ry="140" fill="url(#g4)" />
+        <ellipse id="glow-5" cx="750" cy="260" rx="140" ry="130" fill="url(#g5)" />
+        <ellipse id="glow-6" cx="420" cy="200" rx="100" ry="110" fill="url(#g6)" />
       </svg>
 
-      <div style={{ display:'flex', fontSize:32, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1, zIndex: 10, marginBottom: 8 }}>
-        TECH STACK
-      </div>
-      
-      <div style={{ display:'flex', fontSize:15, color:'rgba(200,230,255,0.8)', fontWeight:400, letterSpacing:'0.3px', zIndex: 10, marginBottom: 12 }}>
-        Languages and Development Tools
-      </div>
-      
-      <div style={{ display:'flex', zIndex: 10, gap: 4 }}>
-        <img src="https://skillicons.dev/icons?i=cpp,python,c,java,mysql,vscode,github" height="48" style={{ height: 48 }} />
-        <div style={{ display: 'flex', width: 48, height: 48, background: '#242938', borderRadius: 12, alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
-            <path d="M22.973 17.652c-.672-4.004-4.839-4.81-8.544-4.698V8.672c1.785-.112 3.518.335 4.39.782l1.64-3.167c-1.399-.783-3.69-1.455-6.03-1.455v-.002c-4.256 0-7.391 1.636-7.391 5.937 0 5.485 5.597 5.706 8.528 5.706v4.619c-2.35 0-4.642-.746-6.19-1.867l-2.015 2.946c1.903 1.528 4.773 2.508 8.204 2.508v.002c6.264 0 8.04-3.353 7.408-7.03z"/>
-          </svg>
+      <div style={{ display: 'flex', width: '100%', zIndex: 10 }}>
+        {/* Left Half: About Me */}
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, paddingRight: 32, gap: 16 }}>
+          <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>About Me</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 14, fontSize: 13, color: 'rgba(215,235,255,0.85)', lineHeight: 1.5, fontWeight: 400 }}>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <span style={{ fontSize: 16 }}>🎓</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
+                <span>Sophomore CSE student at JIIT, passionate about technology, problem-solving, and continuous learning.</span>
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <span style={{ fontSize: 16 }}>💻</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
+                <span>Well-versed in C++ and Python, with a strong interest in programming and software development.</span>
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <span style={{ fontSize: 16 }}>📊</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
+                <span>Skilled in Data Analytics using Python, including working with data, visualization, and analytical tools.</span>
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <span style={{ fontSize: 16 }}>🧠</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
+                <span>Familiar with Software Engineering concepts, along with basics of C, Java, SQL, and MySQL.</span>
+              </div>
+            </div>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <span style={{ fontSize: 16 }}>🎨</span>
+              <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
+                <span>A creative individual interested in Graphic Design and Music, combining technical skills with creativity.</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <img src="https://skillicons.dev/icons?i=vercel" height="48" style={{ height: 48 }} />
-        <div style={{ display: 'flex', width: 48, height: 48, background: '#242938', borderRadius: 12, alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="#ffffff">
-            <path d="M2.551 0a2.552 2.552 0 0 0-2.55 2.551v3.298C0 14.394 6.902 21.321 15.429 21.444v2.551h8.571v-8.571h-2.551c-.123-8.527-7.05-15.429-15.595-15.424zM8.367 7.02c1.722 0 3.118 1.401 3.118 3.123 0 1.722-1.396 3.118-3.118 3.118a3.12 3.12 0 0 1-3.119-3.118c0-1.722 1.397-3.123 3.119-3.123z"/>
-          </svg>
+
+        {/* Divider */}
+        <div style={{ display: 'flex', width: 1, background: 'rgba(255,255,255,0.1)', height: 260, marginRight: 32 }}></div>
+
+        {/* Right Half: Languages & Dev Tools */}
+        <div style={{ display: 'flex', flexDirection: 'column', width: 340, gap: 16 }}>
+          <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>Languages & Dev Tools</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
+            {[
+              { name: 'C++', icon: 'cpp' },
+              { name: 'Python', icon: 'python' },
+              { name: 'C', icon: 'c' },
+              { name: 'Java', icon: 'java' },
+              { name: 'MySQL', icon: 'mysql' },
+              { name: 'VS Code', icon: 'vscode' },
+              { name: 'GitHub', icon: 'github' },
+              { name: 'Render', custom: 'render' },
+              { name: 'Vercel', icon: 'vercel' },
+              { name: 'Aiven', custom: 'aiven' }
+            ].map(function(item) {
+              return (
+                <div key={item.name} style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.06)', padding: '6px 12px 6px 6px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.08)' }}>
+                  {item.custom === 'render' ? (
+                    <div style={{ display: 'flex', width: 24, height: 24, background: '#242938', borderRadius: 6, alignItems: 'center', justifyContent: 'center' }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffffff">
+                        <path d="M22.973 17.652c-.672-4.004-4.839-4.81-8.544-4.698V8.672c1.785-.112 3.518.335 4.39.782l1.64-3.167c-1.399-.783-3.69-1.455-6.03-1.455v-.002c-4.256 0-7.391 1.636-7.391 5.937 0 5.485 5.597 5.706 8.528 5.706v4.619c-2.35 0-4.642-.746-6.19-1.867l-2.015 2.946c1.903 1.528 4.773 2.508 8.204 2.508v.002c6.264 0 8.04-3.353 7.408-7.03z"/>
+                      </svg>
+                    </div>
+                  ) : item.custom === 'aiven' ? (
+                    <div style={{ display: 'flex', width: 24, height: 24, background: '#242938', borderRadius: 6, alignItems: 'center', justifyContent: 'center' }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffffff">
+                        <path d="M2.551 0a2.552 2.552 0 0 0-2.55 2.551v3.298C0 14.394 6.902 21.321 15.429 21.444v2.551h8.571v-8.571h-2.551c-.123-8.527-7.05-15.429-15.595-15.424zM8.367 7.02c1.722 0 3.118 1.401 3.118 3.123 0 1.722-1.396 3.118-3.118 3.118a3.12 3.12 0 0 1-3.119-3.118c0-1.722 1.397-3.123 3.119-3.123z"/>
+                      </svg>
+                    </div>
+                  ) : (
+                    <img src={"https://skillicons.dev/icons?i=" + item.icon} height="24" width="24" style={{ borderRadius: 6 }} />
+                  )}
+                  <span style={{ color: '#e2e8f0', fontSize: 13, fontWeight: 600 }}>{item.name}</span>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
