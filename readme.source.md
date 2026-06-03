@@ -411,7 +411,16 @@
 <br/>
 
 
-```aura width=90 height=36 link="https://www.linkedin.com/in/vvanshverma" inline align=center
+```aura width=150 height=44 inline align=center
+(function() {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: 10, width: '100%', height: '100%' }}>
+      <span style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, fontFamily: 'Inter', letterSpacing: '0.5px' }}>Contact me on</span>
+    </div>
+  );
+})()
+```
+```aura width=90 height=36 link="https://www.linkedin.com/in/vansh-verma-48a528376" inline align=center
 (function() {
   return (
     <div style={{
@@ -424,7 +433,7 @@
   );
 })()
 ```
-```aura width=80 height=36 link="mailto:hello@vvanshverma148.com" inline align=center
+```aura width=80 height=36 link="mailto:v.vanshverma148@gmail.com" inline align=center
 (function() {
   return (
     <div style={{
@@ -437,7 +446,7 @@
   );
 })()
 ```
-```aura width=100 height=36 link="https://instagram.com/vvanshverma" inline align=center
+```aura width=100 height=36 link="https://www.instagram.com/vansh__9206" inline align=center
 (function() {
   return (
     <div style={{

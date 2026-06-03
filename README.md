@@ -12,5 +12,5 @@
 <br/>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/vvanshverma"><img src="./.github/assets/readme-aura-component-3-b060a71f.svg" width="90" height="36" /></a><a href="mailto:hello@vvanshverma148.com"><img src="./.github/assets/readme-aura-component-4-d0fa8cc7.svg" width="80" height="36" /></a><a href="https://instagram.com/vvanshverma"><img src="./.github/assets/readme-aura-component-5-5f68d74a.svg" width="100" height="36" /></a>
+<img src="./.github/assets/readme-aura-component-3-de360f36.svg" width="150" height="44" /><a href="https://www.linkedin.com/in/vansh-verma-48a528376"><img src="./.github/assets/readme-aura-component-4-b060a71f.svg" width="90" height="36" /></a><a href="mailto:v.vanshverma148@gmail.com"><img src="./.github/assets/readme-aura-component-5-d0fa8cc7.svg" width="80" height="36" /></a><a href="https://www.instagram.com/vansh__9206"><img src="./.github/assets/readme-aura-component-6-5f68d74a.svg" width="100" height="36" /></a>
 </p>
