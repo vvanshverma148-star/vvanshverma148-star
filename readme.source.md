@@ -404,58 +404,21 @@
 ```
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vvanshverma148-star&bg_color=08080c&color=ffffff&line=3090ff&point=ffffff&area=true&hide_border=false&border_color=222222&title_color=ffffff&radius=16" width="860" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vvanshverma148-star/vvanshverma148-star/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vvanshverma148-star/vvanshverma148-star/output/github-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vvanshverma148-star/vvanshverma148-star/output/github-snake-dark.svg" />
+  </picture>
   <br/><br/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vvanshverma148-star&theme=dark" width="860" />
 </div>
 <br/>
 
-
-```aura width=150 height=44 inline align=center
-(function() {
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', paddingRight: 10, width: '100%', height: '100%' }}>
-      <span style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, fontFamily: 'Inter', letterSpacing: '0.5px' }}>Contact me on</span>
-    </div>
-  );
-})()
-```
-```aura width=90 height=36 link="https://www.linkedin.com/in/vansh-verma-48a528376" inline align=center
-(function() {
-  return (
-    <div style={{
-      display: 'flex', alignItems: 'center', justifyContent: 'center',
-      background: 'rgba(0, 119, 181, 0.15)', width: '100%', height: '100%', borderRadius: 18,
-      border: '1px solid rgba(0, 119, 181, 0.3)'
-    }}>
-      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>LinkedIn</span>
-    </div>
-  );
-})()
-```
-```aura width=80 height=36 link="mailto:v.vanshverma148@gmail.com" inline align=center
-(function() {
-  return (
-    <div style={{
-      display: 'flex', alignItems: 'center', justifyContent: 'center',
-      background: 'rgba(234, 67, 53, 0.15)', width: '100%', height: '100%', borderRadius: 18,
-      border: '1px solid rgba(234, 67, 53, 0.3)'
-    }}>
-      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>Email</span>
-    </div>
-  );
-})()
-```
-```aura width=100 height=36 link="https://www.instagram.com/vansh__9206" inline align=center
-(function() {
-  return (
-    <div style={{
-      display: 'flex', alignItems: 'center', justifyContent: 'center',
-      background: 'rgba(228, 64, 95, 0.15)', width: '100%', height: '100%', borderRadius: 18,
-      border: '1px solid rgba(228, 64, 95, 0.3)'
-    }}>
-      <span style={{ color: '#ffffff', fontSize: 14, fontWeight: 600, fontFamily: 'Inter' }}>Instagram</span>
-    </div>
-  );
-})()
-```
+<div align="center">
+  <h3 style={{ color: '#ffffff' }}>📬 Contact Me</h3>
+  <p>
+    <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/vansh-verma-48a528376">www.linkedin.com/in/vansh-verma-48a528376</a><br/>
+    <b>Email:</b> <a href="mailto:v.vanshverma148@gmail.com">v.vanshverma148@gmail.com</a><br/>
+    <b>Instagram:</b> <a href="https://www.instagram.com/vansh__9206">www.instagram.com/vansh__9206</a>
+  </p>
+</div>
