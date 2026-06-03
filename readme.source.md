@@ -365,39 +365,16 @@
         <div style={{ display: 'flex', flexDirection: 'column', width: 340, gap: 16 }}>
           <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>Languages & Dev Tools</div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-            {[
-              { name: 'C++', icon: 'cpp' },
-              { name: 'Python', icon: 'python' },
-              { name: 'C', icon: 'c' },
-              { name: 'Java', icon: 'java' },
-              { name: 'MySQL', icon: 'mysql' },
-              { name: 'VS Code', icon: 'vscode' },
-              { name: 'GitHub', icon: 'github' },
-              { name: 'Render', custom: 'render' },
-              { name: 'Vercel', icon: 'vercel' },
-              { name: 'Aiven', custom: 'aiven' }
-            ].map(function(item) {
-              return (
-                <div key={item.name} style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.06)', padding: '6px 12px 6px 6px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.08)' }}>
-                  {item.custom === 'render' ? (
-                    <div style={{ display: 'flex', width: 24, height: 24, background: '#242938', borderRadius: 6, alignItems: 'center', justifyContent: 'center' }}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffffff">
-                        <path d="M22.973 17.652c-.672-4.004-4.839-4.81-8.544-4.698V8.672c1.785-.112 3.518.335 4.39.782l1.64-3.167c-1.399-.783-3.69-1.455-6.03-1.455v-.002c-4.256 0-7.391 1.636-7.391 5.937 0 5.485 5.597 5.706 8.528 5.706v4.619c-2.35 0-4.642-.746-6.19-1.867l-2.015 2.946c1.903 1.528 4.773 2.508 8.204 2.508v.002c6.264 0 8.04-3.353 7.408-7.03z"/>
-                      </svg>
-                    </div>
-                  ) : item.custom === 'aiven' ? (
-                    <div style={{ display: 'flex', width: 24, height: 24, background: '#242938', borderRadius: 6, alignItems: 'center', justifyContent: 'center' }}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#ffffff">
-                        <path d="M2.551 0a2.552 2.552 0 0 0-2.55 2.551v3.298C0 14.394 6.902 21.321 15.429 21.444v2.551h8.571v-8.571h-2.551c-.123-8.527-7.05-15.429-15.595-15.424zM8.367 7.02c1.722 0 3.118 1.401 3.118 3.123 0 1.722-1.396 3.118-3.118 3.118a3.12 3.12 0 0 1-3.119-3.118c0-1.722 1.397-3.123 3.119-3.123z"/>
-                      </svg>
-                    </div>
-                  ) : (
-                    <img src={"https://skillicons.dev/icons?i=" + item.icon} height="24" width="24" style={{ borderRadius: 6 }} />
-                  )}
-                  <span style={{ color: '#e2e8f0', fontSize: 13, fontWeight: 600 }}>{item.name}</span>
-                </div>
-              );
-            })}
+            <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/C-%23A8B9CC.svg?style=for-the-badge&logo=c&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logo=render&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" height="28" style={{ borderRadius: 6 }} />
+            <img src="https://img.shields.io/badge/Aiven-%23FF3366.svg?style=for-the-badge&logo=aiven&logoColor=white" height="28" style={{ borderRadius: 6 }} />
           </div>
         </div>
       </div>
