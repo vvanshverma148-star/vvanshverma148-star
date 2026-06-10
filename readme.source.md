@@ -234,13 +234,13 @@
 })()
 ```
 
-```aura width=860 height=340
- (function() {
+```aura width=860 height=260
+(function() {
   return (
     <div style={{
       width: '100%', height: '100%',
       background: '#08080c',
-      display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+      display: 'flex', alignItems: 'center', justifyContent: 'flex-start',
       fontFamily: 'Inter', padding: '32px 40px',
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
       position: 'relative', overflow: 'hidden',
@@ -282,7 +282,7 @@
         `}
       </style>
 
-      <svg width="860" height="340" style={{ position: 'absolute', top: 0, left: 0 }}>
+      <svg width="860" height="260" style={{ position: 'absolute', top: 0, left: 0 }}>
         <defs>
           <radialGradient id="g1" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="rgba(15,82,186,0.68)" />
@@ -312,23 +312,23 @@
             <stop offset="70%" stopColor="rgba(30,144,255,0)" />
           </radialGradient>
         </defs>
-        <ellipse id="glow-1" cx="170" cy="240" rx="260" ry="200" fill="url(#g1)" />
-        <ellipse id="glow-2" cx="320" cy="250" rx="220" ry="170" fill="url(#g2)" />
-        <ellipse id="glow-3" cx="460" cy="250" rx="190" ry="160" fill="url(#g3)" />
-        <ellipse id="glow-4" cx="590" cy="260" rx="160" ry="140" fill="url(#g4)" />
-        <ellipse id="glow-5" cx="750" cy="260" rx="140" ry="130" fill="url(#g5)" />
-        <ellipse id="glow-6" cx="420" cy="200" rx="100" ry="110" fill="url(#g6)" />
+        <ellipse id="glow-1" cx="170" cy="180" rx="260" ry="200" fill="url(#g1)" />
+        <ellipse id="glow-2" cx="320" cy="190" rx="220" ry="170" fill="url(#g2)" />
+        <ellipse id="glow-3" cx="460" cy="190" rx="190" ry="160" fill="url(#g3)" />
+        <ellipse id="glow-4" cx="590" cy="200" rx="160" ry="140" fill="url(#g4)" />
+        <ellipse id="glow-5" cx="750" cy="200" rx="140" ry="130" fill="url(#g5)" />
+        <ellipse id="glow-6" cx="420" cy="150" rx="100" ry="110" fill="url(#g6)" />
       </svg>
 
       <div style={{ display: 'flex', width: '100%', zIndex: 10 }}>
-        {/* Left Half: About Me */}
-        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, paddingRight: 32, gap: 16 }}>
+        {/* About Me */}
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 16 }}>
           <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>About Me</div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 14, fontSize: 13, color: 'rgba(215,235,255,0.85)', lineHeight: 1.5, fontWeight: 400 }}>
             <div style={{ display: 'flex', gap: 10 }}>
               <span style={{ fontSize: 16 }}>🎓</span>
               <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
-                <span>Sophomore CSE student at JIIT, passionate about technology, problem-solving, and continuous learning.</span>
+                <span>B.Tech. CSE student at JIIT, passionate about technology, problem-solving, and continuous learning.</span>
               </div>
             </div>
             <div style={{ display: 'flex', gap: 10 }}>
@@ -354,46 +354,6 @@
               <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
                 <span>A creative individual interested in Graphic Design and Music, combining technical skills with creativity.</span>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Divider */}
-        <div style={{ display: 'flex', width: 1, background: 'rgba(255,255,255,0.1)', height: 260, marginRight: 32 }}></div>
-
-        {/* Right Half: Languages & Dev Tools */}
-        <div style={{ display: 'flex', flexDirection: 'column', width: 340, gap: 16 }}>
-          <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>Languages & Dev Tools</div>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10 }}>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(0, 89, 156, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(0, 89, 156, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>C++</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(55, 118, 171, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(55, 118, 171, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>Python</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(168, 185, 204, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(168, 185, 204, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>C</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(237, 139, 0, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(237, 139, 0, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>Java</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(68, 121, 161, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(68, 121, 161, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>MySQL</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(0, 122, 204, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(0, 122, 204, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>VS Code</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(255, 255, 255, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>GitHub</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(70, 227, 183, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(70, 227, 183, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>Render</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(255, 255, 255, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>Vercel</span>
-            </div>
-            <div style={{ display: 'flex', alignItems: 'center', background: 'rgba(255, 51, 102, 0.15)', padding: '6px 14px', borderRadius: 16, border: '1px solid rgba(255, 51, 102, 0.3)' }}>
-              <span style={{ color: '#ffffff', fontSize: 12, fontWeight: 600, letterSpacing: '0.2px' }}>Aiven</span>
             </div>
           </div>
         </div>
