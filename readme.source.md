@@ -234,14 +234,14 @@
 })()
 ```
 
-```aura width=860 height=230
+```aura width=860 height=200
 (function() {
   return (
     <div style={{
       width: '100%', height: '100%',
       background: '#08080c',
-      display: 'flex', alignItems: 'center', justifyContent: 'flex-start',
-      fontFamily: 'Inter', padding: '32px 40px',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: 'Inter', padding: '24px 40px',
       borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
       position: 'relative', overflow: 'hidden',
     }}>
@@ -282,7 +282,7 @@
         `}
       </style>
 
-      <svg width="860" height="230" style={{ position: 'absolute', top: 0, left: 0 }}>
+      <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
         <defs>
           <radialGradient id="g1" cx="50%" cy="50%" r="50%">
             <stop offset="0%" stopColor="rgba(15,82,186,0.68)" />
@@ -312,19 +312,19 @@
             <stop offset="70%" stopColor="rgba(30,144,255,0)" />
           </radialGradient>
         </defs>
-        <ellipse id="glow-1" cx="170" cy="160" rx="260" ry="200" fill="url(#g1)" />
-        <ellipse id="glow-2" cx="320" cy="170" rx="220" ry="170" fill="url(#g2)" />
-        <ellipse id="glow-3" cx="460" cy="170" rx="190" ry="160" fill="url(#g3)" />
-        <ellipse id="glow-4" cx="590" cy="180" rx="160" ry="140" fill="url(#g4)" />
-        <ellipse id="glow-5" cx="750" cy="180" rx="140" ry="130" fill="url(#g5)" />
-        <ellipse id="glow-6" cx="420" cy="130" rx="100" ry="110" fill="url(#g6)" />
+        <ellipse id="glow-1" cx="170" cy="100" rx="260" ry="200" fill="url(#g1)" />
+        <ellipse id="glow-2" cx="320" cy="110" rx="220" ry="170" fill="url(#g2)" />
+        <ellipse id="glow-3" cx="460" cy="110" rx="190" ry="160" fill="url(#g3)" />
+        <ellipse id="glow-4" cx="590" cy="120" rx="160" ry="140" fill="url(#g4)" />
+        <ellipse id="glow-5" cx="750" cy="120" rx="140" ry="130" fill="url(#g5)" />
+        <ellipse id="glow-6" cx="420" cy="100" rx="100" ry="110" fill="url(#g6)" />
       </svg>
 
-      <div style={{ display: 'flex', width: '100%', zIndex: 10 }}>
+      <div style={{ display: 'flex', width: '100%', zIndex: 10, justifyContent: 'center' }}>
         {/* About Me */}
-        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 580, gap: 12 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 640, gap: 8 }}>
           <div style={{ fontSize: 18, fontWeight: 700, color: '#ffffff', letterSpacing: '0.5px' }}>About Me</div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 9, fontSize: 13, color: 'rgba(215,235,255,0.85)', lineHeight: 1.5, fontWeight: 400 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 6, fontSize: 13, color: 'rgba(215,235,255,0.85)', lineHeight: 1.3, fontWeight: 400 }}>
             <div style={{ display: 'flex', gap: 10 }}>
               <span style={{ fontSize: 16 }}>🎓</span>
               <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1 }}>
@@ -414,9 +414,59 @@
     </div>
 ```
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vvanshverma148-star&theme=dark" width="860" />
-</div>
+```aura width=860 height=300
+(function() {
+  return (
+    <div style={{
+      width: '100%', height: '100%',
+      background: '#08080c',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+      fontFamily: 'Inter',
+      borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
+      position: 'relative', overflow: 'hidden',
+    }}>
+
+      <style>
+        {`
+          @keyframes float-slow-cg {
+            0%, 100% { transform: translateX(0px) translateY(0px); opacity: 0.8; }
+            50% { transform: translateX(180px) translateY(15px); opacity: 1.1; }
+          }
+          @keyframes float-medium-cg {
+            0%, 100% { transform: translateX(0px) translateY(0px); opacity: 0.7; }
+            50% { transform: translateX(-120px) translateY(-15px); opacity: 1.0; }
+          }
+          #glow-1-cg { animation: float-slow-cg 11s ease-in-out infinite; }
+          #glow-2-cg { animation: float-medium-cg 13s ease-in-out infinite reverse; }
+        `}
+      </style>
+
+      <svg width="860" height="300" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="g1-cg" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(15,82,186,0.65)" />
+            <stop offset="45%" stopColor="rgba(30,144,255,0.28)" />
+            <stop offset="70%" stopColor="rgba(30,144,255,0)" />
+          </radialGradient>
+          <radialGradient id="g2-cg" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,191,255,0.55)" />
+            <stop offset="45%" stopColor="rgba(135,206,235,0.22)" />
+            <stop offset="70%" stopColor="rgba(135,206,235,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse id="glow-1-cg" cx="200" cy="150" rx="280" ry="180" fill="url(#g1-cg)" />
+        <ellipse id="glow-2-cg" cx="660" cy="150" rx="240" ry="160" fill="url(#g2-cg)" />
+      </svg>
+
+      <img 
+        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-profile-summary-cards.vercel.app%2Fapi%2Fcards%2Fprofile-details%3Fusername%3Dvvanshverma148-star%26theme%3Dtokyonight&amp;output=png" 
+        width={858} 
+        style={{ borderRadius: 16, zIndex: 10 }} 
+      />
+    </div>
+  );
+})()
+```
 <br/>
 
 ```aura width=860 height=140
