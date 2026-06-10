@@ -404,6 +404,8 @@
 ```
 
 ```aura width=860 height=300
+(function() {
+  return (
     <div style={{
       width: '100%', height: '100%',
       background: '#08080c',
@@ -444,14 +446,12 @@
         <ellipse id="glow-1" cx="200" cy="150" rx="280" ry="180" fill="url(#g1)" />
         <ellipse id="glow-2" cx="660" cy="150" rx="240" ry="160" fill="url(#g2)" />
       </svg>
-
-      <img 
-        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-readme-activity-graph.vercel.app%2Fgraph%3Fusername%3Dvvanshverma148-star%26bg_color%3Dtransparent%26color%3Dffffff%26line%3Dffffff%26point%3D08080c%26area%3Dfalse%26hide_border%3Dtrue%26hide_title%3Dtrue&amp;output=png" 
-        width={858} 
-        height={298} 
-        style={{ borderRadius: 16 }} 
-      />
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <img src={"https://wsrv.nl/?url=https%3A%2F%2Fgithub-readme-activity-graph.vercel.app%2Fgraph%3Fusername%3Dvvanshverma148-star%26bg_color%3Dtransparent%26color%3Dffffff%26line%3Dffffff%26point%3D00000000%26area%3Dfalse%26hide_border%3Dtrue%26title_color%3D00000000&amp;output=png"} width="100%" />
+      </div>
     </div>
+  );
+})()
 ```
 
 ```aura width=860 height=300
@@ -499,7 +499,7 @@
       </svg>
 
       <img 
-        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-profile-summary-cards.vercel.app%2Fapi%2Fcards%2Fprofile-details%3Fusername%3Dvvanshverma148-star%26bg_color%3D08080c%26title_color%3Dffffff%26text_color%3Dc8e6ff%26icon_color%3D0088ff%26hide_border%3Dtrue&amp;output=png" 
+        src={"https://wsrv.nl/?url=https%3A%2F%2Fgithub-profile-summary-cards.vercel.app%2Fapi%2Fcards%2Fprofile-details%3Fusername%3Dvvanshverma148-star%26bg_color%3D08080c%26title_color%3Dffffff%26text_color%3Dc8e6ff%26icon_color%3D0088ff%26hide_border%3Dtrue&amp;output=png"} 
         width={858} 
         style={{ borderRadius: 16, zIndex: 10 }} 
       />
