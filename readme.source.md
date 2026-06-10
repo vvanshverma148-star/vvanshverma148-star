@@ -446,7 +446,7 @@
       </svg>
 
       <img 
-        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-readme-activity-graph.vercel.app%2Fgraph%3Fusername%3Dvvanshverma148-star%26bg_color%3Dtransparent%26color%3Dffffff%26line%3Dffffff%26point%3Dffffff%26area%3Dfalse%26hide_border%3Dtrue%26title_color%3Dffffff&amp;output=png" 
+        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-readme-activity-graph.vercel.app%2Fgraph%3Fusername%3Dvvanshverma148-star%26bg_color%3Dtransparent%26color%3Dffffff%26line%3Dffffff%26point%3D08080c%26area%3Dfalse%26hide_border%3Dtrue%26hide_title%3Dtrue&amp;output=png" 
         width={858} 
         height={298} 
         style={{ borderRadius: 16 }} 
@@ -499,10 +499,123 @@
       </svg>
 
       <img 
-        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-profile-summary-cards.vercel.app%2Fapi%2Fcards%2Fprofile-details%3Fusername%3Dvvanshverma148-star%26theme%3Dtokyonight&amp;output=png" 
+        src="https://wsrv.nl/?url=https%3A%2F%2Fgithub-profile-summary-cards.vercel.app%2Fapi%2Fcards%2Fprofile-details%3Fusername%3Dvvanshverma148-star%26bg_color%3D08080c%26title_color%3Dffffff%26text_color%3Dc8e6ff%26icon_color%3D0088ff%26hide_border%3Dtrue&amp;output=png" 
         width={858} 
         style={{ borderRadius: 16, zIndex: 10 }} 
       />
+    </div>
+  );
+})()
+```
+<br/>
+
+```aura width=860 height=640
+(function() {
+  return (
+    <div style={{
+      width: '100%', height: '100%',
+      background: '#08080c',
+      display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+      fontFamily: 'Inter',
+      borderRadius: 16, border: '1px solid rgba(110,80,220,0.18)',
+      position: 'relative', overflow: 'hidden',
+    }}>
+      <style>
+        {`
+          @keyframes float-lang-1 {
+            0%, 100% { transform: translate(0px, 0px); opacity: 0.7; }
+            50% { transform: translate(250px, 80px); opacity: 1.0; }
+          }
+          @keyframes float-lang-2 {
+            0%, 100% { transform: translate(0px, 0px); opacity: 0.6; }
+            50% { transform: translate(-200px, -50px); opacity: 0.9; }
+          }
+          @keyframes float-lang-3 {
+            0%, 100% { transform: translate(0px, 0px); opacity: 0.8; }
+            50% { transform: translate(150px, -100px); opacity: 1.1; }
+          }
+          #glow-lang-1 { animation: float-lang-1 12s ease-in-out infinite; }
+          #glow-lang-2 { animation: float-lang-2 15s ease-in-out infinite reverse; }
+          #glow-lang-3 { animation: float-lang-3 10s ease-in-out infinite; }
+        `}
+      </style>
+      <svg width="860" height="640" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="gl1" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(15,82,186,0.5)" />
+            <stop offset="70%" stopColor="rgba(30,144,255,0)" />
+          </radialGradient>
+          <radialGradient id="gl2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(138,43,226,0.4)" />
+            <stop offset="70%" stopColor="rgba(138,43,226,0)" />
+          </radialGradient>
+          <radialGradient id="gl3" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,191,255,0.45)" />
+            <stop offset="70%" stopColor="rgba(0,191,255,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse id="glow-lang-1" cx="200" cy="320" rx="300" ry="200" fill="url(#gl1)" />
+        <ellipse id="glow-lang-2" cx="600" cy="450" rx="250" ry="180" fill="url(#gl2)" />
+        <ellipse id="glow-lang-3" cx="430" cy="150" rx="280" ry="150" fill="url(#gl3)" />
+      </svg>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 32, zIndex: 10, width: '100%', alignItems: 'center' }}>
+        
+        {/* Core Languages */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <div style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, letterSpacing: '0.5px' }}>Core Languages</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FC%252B%252B-00599C%3Fstyle%3Dfor-the-badge%26logo%3Dc%252B%252B%26logoColor%3Dwhite&output=png" width={72} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FJava-ED8B00%3Fstyle%3Dfor-the-badge%26logo%3Dopenjdk%26logoColor%3Dwhite&output=png" width={77} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FPython-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite&output=png" width={98} height={28} />
+          </div>
+        </div>
+
+        {/* Frontend Frameworks & UI */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <div style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, letterSpacing: '0.5px' }}>Frontend Frameworks & UI</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FReact-20232A%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D61DAFB&output=png" width={86} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FNext.js-000000%3Fstyle%3Dfor-the-badge%26logo%3Dnext.js%26logoColor%3Dwhite&output=png" width={99} height={28} />
+          </div>
+        </div>
+
+        {/* Backend & Databases */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <div style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, letterSpacing: '0.5px' }}>Backend & Databases</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FNode.js-339933%3Fstyle%3Dfor-the-badge%26logo%3Dnode.js%26logoColor%3Dwhite&output=png" width={101} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMySQL-4479A1%3Fstyle%3Dfor-the-badge%26logo%3Dmysql%26logoColor%3Dwhite&output=png" width={88} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FVercel-000000%3Fstyle%3Dfor-the-badge%26logo%3Dvercel%26logoColor%3Dwhite&output=png" width={94} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FRender-46E3B7%3Fstyle%3Dfor-the-badge%26logo%3Drender%26logoColor%3Dwhite&output=png" width={98} height={28} />
+          </div>
+        </div>
+
+        {/* AI, Machine Learning & Data Science */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <div style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, letterSpacing: '0.5px' }}>AI, Machine Learning & Data Science</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FTensorFlow-FF6F00%3Fstyle%3Dfor-the-badge%26logo%3Dtensorflow%26logoColor%3Dwhite&output=png" width={135} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FPyTorch-EE4C2C%3Fstyle%3Dfor-the-badge%26logo%3Dpytorch%26logoColor%3Dwhite&output=png" width={106} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FPandas-150458%3Fstyle%3Dfor-the-badge%26logo%3Dpandas%26logoColor%3Dwhite&output=png" width={98} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FNumPy-013243%3Fstyle%3Dfor-the-badge%26logo%3Dnumpy%26logoColor%3Dwhite&output=png" width={90} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FScikit_Learn-F7931E%3Fstyle%3Dfor-the-badge%26logo%3Dscikit-learn%26logoColor%3Dwhite&output=png" width={139} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMatplotlib-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite&output=png" width={129} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FPlotly-3F4F75%3Fstyle%3Dfor-the-badge%26logo%3Dplotly%26logoColor%3Dwhite&output=png" width={94} height={28} />
+          </div>
+        </div>
+
+        {/* Design & Developer Tools */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14 }}>
+          <div style={{ color: '#ffffff', fontSize: 16, fontWeight: 700, letterSpacing: '0.5px' }}>Design & Developer Tools</div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 10 }}>
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FAdobe_Photoshop-31A8FF%3Fstyle%3Dfor-the-badge%26logo%3Dadobe%2520photoshop%26logoColor%3Dwhite&output=png" width={156} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FAdobe_Creative_Cloud-DA1F26%3Fstyle%3Dfor-the-badge%26logo%3Dadobe%2520creative%2520cloud%26logoColor%3Dwhite&output=png" width={189} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FCanva-00C4CC%3Fstyle%3Dfor-the-badge%26logo%3Dcanva%26logoColor%3Dwhite&output=png" width={68} height={28} />
+            <img src="https://wsrv.nl/?url=https%3A%2F%2Fimg.shields.io%2Fbadge%2FGitHub-181717%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite&output=png" width={96} height={28} />
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 })()
@@ -515,12 +628,41 @@
     <div style={{
       display: 'flex', flexDirection: 'column', padding: 24, justifyContent: 'center', alignItems: 'center',
       background: '#08080c', width: '100%', height: '100%', borderRadius: 16,
-      border: '1px solid #222222', fontFamily: 'Inter'
+      border: '1px solid #222222', fontFamily: 'Inter', position: 'relative', overflow: 'hidden'
     }}>
-      <div style={{ display: 'flex', color: '#ffffff', fontSize: 18, fontWeight: 700, marginBottom: 24, letterSpacing: '0.5px' }}>
+      <style>
+        {`
+          @keyframes float-contact-1 {
+            0%, 100% { transform: translateX(0px); opacity: 0.6; }
+            50% { transform: translateX(150px); opacity: 0.9; }
+          }
+          @keyframes float-contact-2 {
+            0%, 100% { transform: translateX(0px); opacity: 0.5; }
+            50% { transform: translateX(-150px); opacity: 0.8; }
+          }
+          #glow-c1 { animation: float-contact-1 10s ease-in-out infinite; }
+          #glow-c2 { animation: float-contact-2 12s ease-in-out infinite reverse; }
+        `}
+      </style>
+      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="gc1" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(15,82,186,0.6)" />
+            <stop offset="70%" stopColor="rgba(15,82,186,0)" />
+          </radialGradient>
+          <radialGradient id="gc2" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(0,191,255,0.5)" />
+            <stop offset="70%" stopColor="rgba(0,191,255,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse id="glow-c1" cx="200" cy="70" rx="220" ry="120" fill="url(#gc1)" />
+        <ellipse id="glow-c2" cx="660" cy="70" rx="200" ry="100" fill="url(#gc2)" />
+      </svg>
+
+      <div style={{ display: 'flex', color: '#ffffff', fontSize: 18, fontWeight: 700, marginBottom: 24, letterSpacing: '0.5px', zIndex: 10 }}>
         Contact Me
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row', gap: 24, flexWrap: 'wrap', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', gap: 24, flexWrap: 'wrap', justifyContent: 'center', zIndex: 10 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="#0077b5">
             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
